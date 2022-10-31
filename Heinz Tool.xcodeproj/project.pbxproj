@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A46997A417A68595005B0F37 /* heinzsounds in Resources */ = {isa = PBXBuildFile; fileRef = A46997A317A68595005B0F37 /* heinzsounds */; };
+		A46997A617A687D2005B0F37 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A46997A517A687D2005B0F37 /* AVFoundation.framework */; };
+		A46997A817A69492005B0F37 /* heinzpics in Resources */ = {isa = PBXBuildFile; fileRef = A46997A717A69492005B0F37 /* heinzpics */; };
+		A46997AA17A6AD0B005B0F37 /* dirksopen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A46997A917A6AD0B005B0F37 /* dirksopen.jpg */; };
+		A46997AC17A6EBFE005B0F37 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A46997AB17A6EBFE005B0F37 /* Default.png */; };
+		A46997AE17A6EC3D005B0F37 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A46997AD17A6EC3D005B0F37 /* Default@2x.png */; };
+		A46997B017A6ED54005B0F37 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A46997AF17A6ED54005B0F37 /* Default-568h@2x.png */; };
+		A46997B217A6EE44005B0F37 /* dirks57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = A46997B117A6EE44005B0F37 /* dirks57x57.png */; };
+		A46997B417A6EE4E005B0F37 /* dirks114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = A46997B317A6EE4E005B0F37 /* dirks114x114.png */; };
+		A4D3CB4F17A435140040382A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4D3CB4E17A435140040382A /* UIKit.framework */; };
+		A4D3CB5117A435140040382A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4D3CB5017A435140040382A /* Foundation.framework */; };
+		A4D3CB5317A435140040382A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4D3CB5217A435140040382A /* CoreGraphics.framework */; };
+		A4D3CB5917A435140040382A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A4D3CB5717A435140040382A /* InfoPlist.strings */; };
+		A4D3CB5B17A435140040382A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D3CB5A17A435140040382A /* main.m */; };
+		A4D3CB5F17A435140040382A /* HTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D3CB5E17A435140040382A /* HTAppDelegate.m */; };
+		A4D3CB6117A435140040382A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A4D3CB6017A435140040382A /* Default.png */; };
+		A4D3CB6317A435140040382A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4D3CB6217A435140040382A /* Default@2x.png */; };
+		A4D3CB6517A435140040382A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4D3CB6417A435140040382A /* Default-568h@2x.png */; };
+		A4D3CB6817A435140040382A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4D3CB6617A435140040382A /* MainStoryboard.storyboard */; };
+		A4D3CB6B17A435140040382A /* HTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D3CB6A17A435140040382A /* HTViewController.m */; };
+		A4D3CB7317A435150040382A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4D3CB7217A435150040382A /* SenTestingKit.framework */; };
+		A4D3CB7417A435150040382A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4D3CB4E17A435140040382A /* UIKit.framework */; };
+		A4D3CB7517A435150040382A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4D3CB5017A435140040382A /* Foundation.framework */; };
+		A4D3CB7D17A435150040382A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A4D3CB7B17A435150040382A /* InfoPlist.strings */; };
+		A4D3CB8017A435150040382A /* Heinz_ToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D3CB7F17A435150040382A /* Heinz_ToolTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4D3CB7617A435150040382A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4D3CB4317A435140040382A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4D3CB4A17A435140040382A;
+			remoteInfo = "Heinz Tool";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A46997A317A68595005B0F37 /* heinzsounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = heinzsounds; sourceTree = "<group>"; };
+		A46997A517A687D2005B0F37 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A46997A717A69492005B0F37 /* heinzpics */ = {isa = PBXFileReference; lastKnownFileType = folder; path = heinzpics; sourceTree = "<group>"; };
+		A46997A917A6AD0B005B0F37 /* dirksopen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = dirksopen.jpg; path = heinzpics/dirksopen.jpg; sourceTree = "<group>"; };
+		A46997AB17A6EBFE005B0F37 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A46997AD17A6EC3D005B0F37 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A46997AF17A6ED54005B0F37 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A46997B117A6EE44005B0F37 /* dirks57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dirks57x57.png; sourceTree = "<group>"; };
+		A46997B317A6EE4E005B0F37 /* dirks114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dirks114x114.png; sourceTree = "<group>"; };
+		A4D3CB4B17A435140040382A /* Heinz Tool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Heinz Tool.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4D3CB4E17A435140040382A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A4D3CB5017A435140040382A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A4D3CB5217A435140040382A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A4D3CB5617A435140040382A /* Heinz Tool-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Heinz Tool-Info.plist"; sourceTree = "<group>"; };
+		A4D3CB5817A435140040382A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A4D3CB5A17A435140040382A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A4D3CB5C17A435140040382A /* Heinz Tool-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Heinz Tool-Prefix.pch"; sourceTree = "<group>"; };
+		A4D3CB5D17A435140040382A /* HTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTAppDelegate.h; sourceTree = "<group>"; };
+		A4D3CB5E17A435140040382A /* HTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTAppDelegate.m; sourceTree = "<group>"; };
+		A4D3CB6017A435140040382A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A4D3CB6217A435140040382A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A4D3CB6417A435140040382A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A4D3CB6717A435140040382A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		A4D3CB6917A435140040382A /* HTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTViewController.h; sourceTree = "<group>"; };
+		A4D3CB6A17A435140040382A /* HTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTViewController.m; sourceTree = "<group>"; };
+		A4D3CB7117A435150040382A /* Heinz ToolTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Heinz ToolTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4D3CB7217A435150040382A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		A4D3CB7A17A435150040382A /* Heinz ToolTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Heinz ToolTests-Info.plist"; sourceTree = "<group>"; };
+		A4D3CB7C17A435150040382A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A4D3CB7E17A435150040382A /* Heinz_ToolTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Heinz_ToolTests.h; sourceTree = "<group>"; };
+		A4D3CB7F17A435150040382A /* Heinz_ToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Heinz_ToolTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4D3CB4817A435140040382A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A46997A617A687D2005B0F37 /* AVFoundation.framework in Frameworks */,
+				A4D3CB4F17A435140040382A /* UIKit.framework in Frameworks */,
+				A4D3CB5117A435140040382A /* Foundation.framework in Frameworks */,
+				A4D3CB5317A435140040382A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4D3CB6D17A435150040382A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4D3CB7317A435150040382A /* SenTestingKit.framework in Frameworks */,
+				A4D3CB7417A435150040382A /* UIKit.framework in Frameworks */,
+				A4D3CB7517A435150040382A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4D3CB4217A435140040382A = {
+			isa = PBXGroup;
+			children = (
+				A46997B317A6EE4E005B0F37 /* dirks114x114.png */,
+				A46997B117A6EE44005B0F37 /* dirks57x57.png */,
+				A46997AF17A6ED54005B0F37 /* Default-568h@2x.png */,
+				A46997AD17A6EC3D005B0F37 /* Default@2x.png */,
+				A46997AB17A6EBFE005B0F37 /* Default.png */,
+				A4D3CB5417A435140040382A /* Heinz Tool */,
+				A4D3CB7817A435150040382A /* Heinz ToolTests */,
+				A4D3CB4D17A435140040382A /* Frameworks */,
+				A4D3CB4C17A435140040382A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4D3CB4C17A435140040382A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4D3CB4B17A435140040382A /* Heinz Tool.app */,
+				A4D3CB7117A435150040382A /* Heinz ToolTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4D3CB4D17A435140040382A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A46997A517A687D2005B0F37 /* AVFoundation.framework */,
+				A4D3CB4E17A435140040382A /* UIKit.framework */,
+				A4D3CB5017A435140040382A /* Foundation.framework */,
+				A4D3CB5217A435140040382A /* CoreGraphics.framework */,
+				A4D3CB7217A435150040382A /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A4D3CB5417A435140040382A /* Heinz Tool */ = {
+			isa = PBXGroup;
+			children = (
+				A46997A917A6AD0B005B0F37 /* dirksopen.jpg */,
+				A46997A717A69492005B0F37 /* heinzpics */,
+				A46997A317A68595005B0F37 /* heinzsounds */,
+				A4D3CB5D17A435140040382A /* HTAppDelegate.h */,
+				A4D3CB5E17A435140040382A /* HTAppDelegate.m */,
+				A4D3CB6617A435140040382A /* MainStoryboard.storyboard */,
+				A4D3CB6917A435140040382A /* HTViewController.h */,
+				A4D3CB6A17A435140040382A /* HTViewController.m */,
+				A4D3CB5517A435140040382A /* Supporting Files */,
+			);
+			path = "Heinz Tool";
+			sourceTree = "<group>";
+		};
+		A4D3CB5517A435140040382A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4D3CB5617A435140040382A /* Heinz Tool-Info.plist */,
+				A4D3CB5717A435140040382A /* InfoPlist.strings */,
+				A4D3CB5A17A435140040382A /* main.m */,
+				A4D3CB5C17A435140040382A /* Heinz Tool-Prefix.pch */,
+				A4D3CB6017A435140040382A /* Default.png */,
+				A4D3CB6217A435140040382A /* Default@2x.png */,
+				A4D3CB6417A435140040382A /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A4D3CB7817A435150040382A /* Heinz ToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				A4D3CB7E17A435150040382A /* Heinz_ToolTests.h */,
+				A4D3CB7F17A435150040382A /* Heinz_ToolTests.m */,
+				A4D3CB7917A435150040382A /* Supporting Files */,
+			);
+			path = "Heinz ToolTests";
+			sourceTree = "<group>";
+		};
+		A4D3CB7917A435150040382A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4D3CB7A17A435150040382A /* Heinz ToolTests-Info.plist */,
+				A4D3CB7B17A435150040382A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4D3CB4A17A435140040382A /* Heinz Tool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4D3CB8317A435150040382A /* Build configuration list for PBXNativeTarget "Heinz Tool" */;
+			buildPhases = (
+				A4D3CB4717A435140040382A /* Sources */,
+				A4D3CB4817A435140040382A /* Frameworks */,
+				A4D3CB4917A435140040382A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Heinz Tool";
+			productName = "Heinz Tool";
+			productReference = A4D3CB4B17A435140040382A /* Heinz Tool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4D3CB7017A435150040382A /* Heinz ToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4D3CB8617A435150040382A /* Build configuration list for PBXNativeTarget "Heinz ToolTests" */;
+			buildPhases = (
+				A4D3CB6C17A435150040382A /* Sources */,
+				A4D3CB6D17A435150040382A /* Frameworks */,
+				A4D3CB6E17A435150040382A /* Resources */,
+				A4D3CB6F17A435150040382A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4D3CB7717A435150040382A /* PBXTargetDependency */,
+			);
+			name = "Heinz ToolTests";
+			productName = "Heinz ToolTests";
+			productReference = A4D3CB7117A435150040382A /* Heinz ToolTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4D3CB4317A435140040382A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HT;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Michael Toth";
+			};
+			buildConfigurationList = A4D3CB4617A435140040382A /* Build configuration list for PBXProject "Heinz Tool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A4D3CB4217A435140040382A;
+			productRefGroup = A4D3CB4C17A435140040382A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4D3CB4A17A435140040382A /* Heinz Tool */,
+				A4D3CB7017A435150040382A /* Heinz ToolTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4D3CB4917A435140040382A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4D3CB5917A435140040382A /* InfoPlist.strings in Resources */,
+				A4D3CB6117A435140040382A /* Default.png in Resources */,
+				A4D3CB6317A435140040382A /* Default@2x.png in Resources */,
+				A4D3CB6517A435140040382A /* Default-568h@2x.png in Resources */,
+				A4D3CB6817A435140040382A /* MainStoryboard.storyboard in Resources */,
+				A46997A417A68595005B0F37 /* heinzsounds in Resources */,
+				A46997A817A69492005B0F37 /* heinzpics in Resources */,
+				A46997AA17A6AD0B005B0F37 /* dirksopen.jpg in Resources */,
+				A46997AC17A6EBFE005B0F37 /* Default.png in Resources */,
+				A46997AE17A6EC3D005B0F37 /* Default@2x.png in Resources */,
+				A46997B017A6ED54005B0F37 /* Default-568h@2x.png in Resources */,
+				A46997B217A6EE44005B0F37 /* dirks57x57.png in Resources */,
+				A46997B417A6EE4E005B0F37 /* dirks114x114.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4D3CB6E17A435150040382A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4D3CB7D17A435150040382A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A4D3CB6F17A435150040382A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4D3CB4717A435140040382A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4D3CB5B17A435140040382A /* main.m in Sources */,
+				A4D3CB5F17A435140040382A /* HTAppDelegate.m in Sources */,
+				A4D3CB6B17A435140040382A /* HTViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4D3CB6C17A435150040382A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4D3CB8017A435150040382A /* Heinz_ToolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4D3CB7717A435150040382A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4D3CB4A17A435140040382A /* Heinz Tool */;
+			targetProxy = A4D3CB7617A435150040382A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A4D3CB5717A435140040382A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4D3CB5817A435140040382A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A4D3CB6617A435140040382A /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4D3CB6717A435140040382A /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		A4D3CB7B17A435150040382A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4D3CB7C17A435150040382A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4D3CB8117A435150040382A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A4D3CB8217A435150040382A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4D3CB8417A435150040382A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Heinz Tool/Heinz Tool-Prefix.pch";
+				INFOPLIST_FILE = "Heinz Tool/Heinz Tool-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.virtualpianist.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A4D3CB8517A435150040382A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Heinz Tool/Heinz Tool-Prefix.pch";
+				INFOPLIST_FILE = "Heinz Tool/Heinz Tool-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.virtualpianist.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A4D3CB8717A435150040382A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Heinz Tool.app/Heinz Tool";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Heinz Tool/Heinz Tool-Prefix.pch";
+				INFOPLIST_FILE = "Heinz ToolTests/Heinz ToolTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.virtualpianist.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A4D3CB8817A435150040382A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Heinz Tool.app/Heinz Tool";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Heinz Tool/Heinz Tool-Prefix.pch";
+				INFOPLIST_FILE = "Heinz ToolTests/Heinz ToolTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.virtualpianist.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4D3CB4617A435140040382A /* Build configuration list for PBXProject "Heinz Tool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4D3CB8117A435150040382A /* Debug */,
+				A4D3CB8217A435150040382A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4D3CB8317A435150040382A /* Build configuration list for PBXNativeTarget "Heinz Tool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4D3CB8417A435150040382A /* Debug */,
+				A4D3CB8517A435150040382A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4D3CB8617A435150040382A /* Build configuration list for PBXNativeTarget "Heinz ToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4D3CB8717A435150040382A /* Debug */,
+				A4D3CB8817A435150040382A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4D3CB4317A435140040382A /* Project object */;
+}
